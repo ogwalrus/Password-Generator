@@ -69,7 +69,7 @@ function generatePassword(){
     randomInput = Math.floor(Math.random() * selection.length);
     password += selection[randomInput];
   }
-
+  passwordLength = 0;
   return password;
   
   // console.log(lowerCaseChars.length + upperCaseChars.length + numChars.length + specialChars.length);
